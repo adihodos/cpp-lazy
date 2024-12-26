@@ -90,7 +90,7 @@ endif()
 
 target_compile_features(cpp-lazy 
 	${CPP-LAZY_COMPILE_FEATURES_VISIBLITY} 
-		cxx_std_11
+		cxx_std_20
 )
 target_include_directories(cpp-lazy
 	${cpp-lazy_warning_guard}
